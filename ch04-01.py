@@ -1,5 +1,5 @@
 class Node():
-    def __init__(self):
+    def __int__(self):
         self.data = None
         self.link = None
 # 첫 번째 노드 생성
@@ -24,3 +24,5 @@ node4.link = node5
 
 print(node1.data,end=" ")
 print(node1.link.data,end=" ")
+print(node1.link.link.data,end=" ")
+print(node1.link.link.link.data,end=" ")
