@@ -3,7 +3,7 @@ class Node():
     def __int__(self):
         self.data = None
         self.link = None
-# 첫 번째 노드 생성 - 링크는 필요 없음
+# 첫 번째 노드 생성 - 링크는 필요 없다
 node1 = Node()
 node1.data = "다현0"
 # 두 번쨰 노드 생성 - 첫 번째 노드와 연결
