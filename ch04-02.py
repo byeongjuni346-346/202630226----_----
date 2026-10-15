@@ -28,7 +28,7 @@ node4.link = node5
 #print(node1.link.link.data,end=" ")
 #print(node1.link.link.link.data,end=" ")
 #print(node1.link.link.link.link.data,end=" ")
-#위의 코드를 while문으로 바꾸면 아래와 같이 작성할 수 있음
+#위의 코드를 while문으로 바꾸면 아래와 같이 작성할 수 있다
 
 #데이터 삽입
 newNode = Node()
